@@ -1,0 +1,26 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <!-- JQuery (used for bootstrap and jekyll search) -->
+    <script src="{{ site.base_url }}/assets/js/jquery-3.2.1.min.js" ></script>
+    
+    <!-- Main JS (navbar.js and katex_init.js)-->
+    <script defer=true src="{{ site.base_url }}/assets/js/main.min.js"></script>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="{{ site.base_url }}/assets/css/main.css">
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="{{ site.base_url }}/" type="image/x-icon">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="{{ page.permalink | replace:'index.html','' | prepend: site.base_url | prepend: site.base_url }}">
+
+    <!-- RSS -->
+    <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.base_url }}//feed.xml"/>
+
+    <!-- Font Awesome -->
+    <!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" type="text/css" href="{{ site.base_url }}/assets/css/font-awesome.min.css">
+</head>

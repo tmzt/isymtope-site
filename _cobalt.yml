@@ -1,0 +1,65 @@
+
+site:
+  title: Isymtope, nearly reaching perfection.
+  description: Blog Posts Go Here
+  base_url: http://example.com
+  data:
+    email_address: false
+    behance: false
+    footer_text: >
+     Copyright &copy; 2017 Timothy Meade.
+     Powered by <a target="_blank" href="http://cobalt-org.github.io/">Cobalt.rs</a> with <a target="_blank" href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
+
+    # Header and footer text
+    header_text: > #two or three lines to describe your site
+      <h2>Isymtope</h2>
+      <p>A template language for quickly building reactive apps.</p>
+    header_text_feature_image: assets/img/pexels/triangular.jpeg
+    str_previous_page: Previous page
+
+    avatar: false
+    portfolio: false
+    search: false
+    tags: false
+
+    # Icons
+    rss: false
+    bitbucket: false
+    dribbble: false
+    facebook: false
+    flickr: false
+    github: tmzt/isymtope
+    instagram: false    
+    google_plus: false
+    keybase: false
+    linkedin: false
+    pinterest: false
+    reddit: false
+    soundcloud: false
+    stack_exchange: false
+    steam: false
+    tumblr: false
+    gitlab: false
+    twitter: false
+    vimeo: false
+    wordpress: false
+    youtube: false
+    str_follow_on: ''
+
+    site:
+      url: http://example.com
+      baseurl: http://example.com
+      theme_settings:
+        title: cobalt blog
+        avatar: about:blank
+        portfolio: /
+
+pages:
+  default: {}
+
+posts:
+  rss: rss.xml
+
+assets:
+  sass:
+    style: Compressed
