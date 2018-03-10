@@ -1,0 +1,35 @@
+language: rust
+os: linux
+rust: nightly
+dist: trusty
+sudo: required
+
+script:
+  - cargo install cobalt-bin --features=sass --force
+  - (cd ${TRAVIS_BUILD_DIR}/site && cobalt build)
+
+deploy:
+  - provider: script
+    script: /bin/sh ./scripts/deploy-production.sh
+    skip_cleanup: true
+    on:
+      branch: master
+
+cache:
+  cargo: true
+  directories:
+    - "$HOME/.rustup"
+    - "$HOME/google-cloud-sdk"
+
+services:
+  - docker
+
+env:
+  global:
+    - GOOGLE_APPLICATION_CREDENTIALS=~/gcloud-service-key.json
+    - PROJECT_NAME_PRD=isymtope-demo
+    - CLUSTER_NAME_PRD=cluster-1
+    - CLOUDSDK_COMPUTE_ZONE=us-central1-a
+    - DOCKER_IMAGE_NAME=isymtope-
+    - KUBE_DEPLOYMENT_NAME=isymtope-demo
+    - KUBE_DEPLOYMENT_CONTAINER_NAME=isymtope-site
