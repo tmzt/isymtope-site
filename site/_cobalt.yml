@@ -2,7 +2,7 @@
 site:
   title: Isymtope, nearly reaching perfection.
   description: Blog Posts Go Here
-  base_url: https://isymtope.org/
+  base_url: https://isymtope.org
   data:
     email_address: false
     behance: false
@@ -48,7 +48,7 @@ site:
 
     site:
       url: http://example.com
-      baseurl: http://example.com
+      baseurl: https://isymtope.org/
       theme_settings:
         title: cobalt blog
         avatar: about:blank
