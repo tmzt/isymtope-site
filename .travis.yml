@@ -42,5 +42,5 @@ env:
     - CLUSTER_NAME_PRD=cluster-1
     - CLOUDSDK_COMPUTE_ZONE=us-central1-a
     - DOCKER_IMAGE_NAME=isymtope-site
-    - KUBE_DEPLOYMENT_NAME=isymtope-demo
+    - KUBE_DEPLOYMENT_NAME=isymtope-site
     - KUBE_DEPLOYMENT_CONTAINER_NAME=isymtope-site
