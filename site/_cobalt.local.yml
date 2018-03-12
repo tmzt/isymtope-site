@@ -17,7 +17,7 @@ site:
     header_text_feature_image: assets/img/pexels/triangular.jpeg
     str_previous_page: Previous page
 
-    avatar: false
+    avatar: about:blank
     portfolio: false
     search: false
     tags: false

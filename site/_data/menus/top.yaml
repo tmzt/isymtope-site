@@ -1,5 +1,7 @@
 entries:
-  - caption: Home
+  - caption: About
     permalink: ''
-  - caption: Try it now
+    active: true
+  - caption: Playground
     permalink: playground
+    active: false

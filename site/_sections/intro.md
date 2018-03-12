@@ -222,6 +222,11 @@ More will be added and soon you will be able to create and share your creations.
 How does it work?
 ------------------------
 
+<figure class="img">
+    <img src="{{ site.base_url }}/assets/img/sections/intro/how_does_it_work/diagram.svg" title="Converting ISM to output formats" />
+    <figcaption>The same ISM file can be used to produce multiple output formats with different frameworks.</figcaption>
+</figure>
+
 The compiler takes the template and builds an abstract syntax tree (AST) from it. Then the code generation driver will build either HTML code where all expressions are resolved and components expanded in place, or javascript (JS) which will make the appropriate definitions and calls to a framework. Currently, the only supported framework is Incremental DOM. However, we intend to support React, Vue, and others in the near future. This would allow us to reuse components defined in any of those libraries, when your app targets the same framework. (In theory, cross-framework components should also work, as would web components.)
 
 The template syntax will not have to change in order to support additional libraries, and the same app can be targeted to multiple frameworks, assuming the components needed are available in that framework.

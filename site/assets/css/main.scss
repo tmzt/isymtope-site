@@ -1,7 +1,28 @@
 @import "type-on-strap";
 
+.site-header .branding .avatar { display: none; }
 .site-title span.tagline { color: #cdcdcd; }
 
 body {
     background: url('../img/isymtope/isymtope-background.png') repeat-y;
+}
+
+figure.img {
+    display: block;
+    text-align: center;
+    margin: 1em 40px;
+}
+
+figure.img figcaption {
+    margin: 1em 4px;
+    font-style: italic;
+    font-size: .8em;
+}
+
+// transition: all 0.4s ease-in-out
+
+.site-header { padding: 1%; }
+
+.site-header nav li.active {
+    font-weight: bold;
 }

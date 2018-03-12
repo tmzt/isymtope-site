@@ -2,9 +2,11 @@
     
     <!-- Logo and title -->
 	<div class="branding">
+        {% if site.data.avatar %}
 		<a href="{{ site.base_url }}/">
 			<img class="avatar" src="{{ site.base_url }}/{{ site.data.avatar }}" alt=""/>
-		</a>
+        </a>
+        {% endif %}
 
 		<h1 class="site-title">
 			<a href="{{ site.base_url }}/">{{ site.title }}</a>
@@ -24,7 +26,12 @@
         <li class="separator">
             |
         </li>
+        {% if item.active %}
+        <li class="active">
+        {% endif %}
+        {% if item.active == false %}
         <li>
+        {% endif %}
             <a class="clear" href="{{ site.base_url }}/{{ item.permalink }}">
                 {{ item.caption }}
             </a>
