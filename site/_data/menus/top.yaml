@@ -3,5 +3,6 @@ entries:
     permalink: ''
     active: true
   - caption: Playground
-    permalink: playground
+    permalink: ''
+    href: https://playground.isymtope.org
     active: false

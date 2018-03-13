@@ -23,19 +23,24 @@
     <ul>
         {% for item in site.data.menus.top.entries %}
         {% if item.caption %}
-        <li class="separator">
-            |
-        </li>
-        {% if item.active %}
-        <li class="active">
-        {% endif %}
-        {% if item.active == false %}
-        <li>
-        {% endif %}
-            <a class="clear" href="{{ site.base_url }}/{{ item.permalink }}">
-                {{ item.caption }}
-            </a>
-        </li>
+            <li class="separator">
+                |
+            </li>
+            {% if item.active %}
+            <li class="active">
+            {% endif %}
+            {% if item.active == false %}
+            <li>
+            {% endif %}
+                {% if item.permalink != '' %}
+                <a class="clear" href="{{ site.base_url }}/{{ item.permalink }}">
+                {% endif %}
+                {% if item.href != '' %}
+                <a class="clear" href="{{ item.href }}">
+                {% endif %}
+                        {{ item.caption }}
+                </a>
+            </li>
         {% endif %}
         {% endfor %} 
 

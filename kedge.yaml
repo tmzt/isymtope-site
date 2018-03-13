@@ -3,7 +3,8 @@ name: isymtope-site
 deployments:
   - containers:
 
-    - image: gcr.io/isymtope-site/isymtope-site
+    - image: gcr.io/isymtope-demo/isymtope-site
+      imagePullPolicy: Always
       resources:
         requests:
           cpu: "10m"
