@@ -13,7 +13,7 @@ layout: default.liquid
         </span>
         Visit us on Github.
   </a>
-  <a href="https://playground.isymtope.org" title=" Isymtope Playground" target="_blank">
+  <a href="https://playground.isymtope.org" title=" Isymtope Playground">
         <span class="fa-stack fa-lg">
             <i class="fa fa-circle fa-stack-2x"></i>
             <i class="fa fa-paper-plane fa-stack-1x fa-inverse"></i>
