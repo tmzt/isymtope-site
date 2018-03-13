@@ -15,14 +15,14 @@ Once rendered, the application comes to life the first time you interact with it
 
 Since the same code is used on both server and client, you will only need to implement your application once.
 
-<div class="call-out" style="background-image: url('{{ site.base_url }}/assets/img/pexels/white-blank-notebook.jpeg'); height: 200px"></div>
+<div class="call-out" style="background-image: url('{{ site.base_url }}/assets/img/pexels-opt/white-blank-notebook.jpg'); height: 200px"></div>
 
 What can I do with it?
 ----------------------------
 
 You can build practically any web application, using custom CSS, custom widget libraries, etc. You are building a real HTML+JS application, starting from a simple template file.
 
-<div class="call-out" style="background-image: url('{{ site.base_url }}/assets/img/pexels/red-swing.jpeg'); height: 400px"></div>
+<div class="call-out" style="background-image: url('{{ site.base_url }}/assets/img/pexels-opt/red-swing.jpg'); height: 400px"></div>
 
 How can I try it?
 ---------------------
