@@ -38,6 +38,12 @@
                 {% if item.href != '' %}
                 <a class="clear" href="{{ item.href }}">
                 {% endif %}
+                {% if item.permalink == '' %}
+                {% if item.href == '' %}
+                <a class="clear" href="#">
+                {% endif %}
+                {% endif %}
+                {% endif %}
                         {{ item.caption }}
                 </a>
             </li>
