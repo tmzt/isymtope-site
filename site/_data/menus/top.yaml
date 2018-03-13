@@ -1,6 +1,7 @@
 entries:
   - caption: About
     permalink: ''
+    href: ''
     active: true
   - caption: Playground
     permalink: ''
