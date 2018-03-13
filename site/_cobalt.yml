@@ -14,7 +14,7 @@ site:
     header_text: > #two or three lines to describe your site
       <h2>Isymtope</h2>
       <p>A template language for quickly building reactive apps.</p>
-    header_text_feature_image: assets/img/pexels/triangular.jpeg
+    header_text_feature_image: assets/img/pexels-opt/triangular.jpg
     str_previous_page: Previous page
 
     avatar: about:blank

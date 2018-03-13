@@ -1,6 +1,6 @@
 <section>
 
-<div class="call-out" style="background-image: url('{{ site.base_url }}/assets/img/pexels/hallway-dome-interior.jpeg'); height: 200px"></div>
+<div class="call-out" style="background-image: url('{{ site.base_url }}/assets/img/pexels-opt/hallway-dome-interior.jpg'); height: 200px"></div>
 
 What is it?
 -------------
