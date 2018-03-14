@@ -1,6 +1,6 @@
 <section>
 
-<div class="call-out" style="background-image: url('{{ site.base_url }}/assets/img/pexels-opt/hallway-dome-interior.jpg'); height: 200px"></div>
+<div class="call-out" style="background-image: url('{{ site.base_url }}/assets/img/pexels-opt/hallway-dome-interior.jpeg'); height: 200px"></div>
 
 What is it?
 -------------
@@ -15,14 +15,14 @@ Once rendered, the application comes to life the first time you interact with it
 
 Since the same code is used on both server and client, you will only need to implement your application once.
 
-<div class="call-out" style="background-image: url('{{ site.base_url }}/assets/img/pexels-opt/white-blank-notebook.jpg'); height: 200px"></div>
+<div class="call-out" style="background-image: url('{{ site.base_url }}/assets/img/pexels-opt/white-blank-notebook.jpeg'); height: 200px"></div>
 
 What can I do with it?
 ----------------------------
 
 You can build practically any web application, using custom CSS, custom widget libraries, etc. You are building a real HTML+JS application, starting from a simple template file.
 
-<div class="call-out" style="background-image: url('{{ site.base_url }}/assets/img/pexels-opt/red-swing.jpg'); height: 400px"></div>
+<div class="call-out" style="background-image: url('{{ site.base_url }}/assets/img/pexels-opt/red-swing.jpeg'); height: 400px"></div>
 
 How can I try it?
 ---------------------
@@ -33,7 +33,7 @@ Then, make some changes to the template or even clear it out and start your own 
 
 You can also <a href="https://github.com/tmzt/isymtope" target="_blank">get the source</a> and follow the directions in the `README.md` to build it for yourself.
 
-<div class="call-out" style="background-image: url('{{ site.base_url }}/assets/img/pexels-opt/building-windows.jpg'); height: 200px"></div>
+<div class="call-out" style="background-image: url('{{ site.base_url }}/assets/img/pexels-opt/building-windows.jpeg'); height: 200px"></div>
 
 What does it look like?
 ------------------------------
@@ -210,7 +210,7 @@ Basically, this is a projection from the source of a value to where it is used. 
 
 Other lenses include the *query* lens, which invokes a named query in the app, and the *for* lens which not only retrieves a value, but also loops over the element or component instance.
 
-<div class="call-out" style="background-image: url('{{ site.base_url }}/assets/img/pexels-opt/scalloped-wall.jpg'); height: 200px"></div>
+<div class="call-out" style="background-image: url('{{ site.base_url }}/assets/img/pexels-opt/scalloped-wall.jpeg'); height: 200px"></div>
 
 How can I learn more?
 -----------------------------
@@ -233,7 +233,7 @@ The template syntax will not have to change in order to support additional libra
 
 With the default implementation, the HTML that is built is the same HTML that the JS application would build, and it's actually left in place and updated. This will also be possible for other frameworks that support *rehydration*.
 
-<div class="call-out" style="background-image: url('{{ site.base_url }}/assets/img/pexels-opt/concrete-structure.jpg'); height: 200px"></div>
+<div class="call-out" style="background-image: url('{{ site.base_url }}/assets/img/pexels-opt/concrete-structure.jpeg'); height: 200px"></div>
 
 How is this different from other isomorphic approaches?
 ---------------------------------------------------------------------------
@@ -246,7 +246,7 @@ Isymtope uses the same routing mechanism on client and server, and will automati
 
 Isymtope will also support a session implementation based on this concept, where the accumulated actions are applied server-side when rendering a page. We are also looking at merging state between the static page and user-specific changes, such as whether a user is logged in or has messages.
 
-<div class="call-out" style="background-image: url('{{ site.base_url }}/assets/img/pexels-opt/white-hallway-geometric.jpg'); height: 200px"></div>
+<div class="call-out" style="background-image: url('{{ site.base_url }}/assets/img/pexels-opt/white-hallway-geometric.jpeg'); height: 200px"></div>
 
 What is the future?
 -------------------------
