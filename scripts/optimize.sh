@@ -14,6 +14,10 @@ jpegtopnm < ${ORIG_DIR}/white-hallway-geometric.jpeg |pnmtojpeg -quality 85 > ${
 jpegtopnm < ${ORIG_DIR}/scalloped-wall.jpeg |pnmtojpeg -quality 85 > ${OPT_DIR}/scalloped-wall.jpg
 jpegtopnm < ${ORIG_DIR}/concrete-structure.jpeg |pnmtojpeg -quality 85 > ${OPT_DIR}/concrete-structure.jpg
 
+jpegtopnm < ${ORIG_DIR}/red-swing.jpeg \
+    |pnmcut -height 2456 \
+    |pnmtojpeg -quality 85 > ${OPT_DIR}/red-swing.jpg
+
 # jpegtopnm < ${ORIG_DIR}/red-swing.jpeg \
-#     |pnmcut -height 2456
-#     |pnmtojpeg -quality 85 > ${OPT_DIR}/red-swing.jpg
+#     |pnmcut -height 2456 \
+#     |pnmtopng -compression 9 > ${OPT_DIR}/red-swing.png -
