@@ -23,4 +23,12 @@
     <!-- Font Awesome -->
     <!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
     <link rel="stylesheet" type="text/css" href="{{ site.base_url }}/assets/css/font-awesome.min.css">
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.data.google.tracking_id }}"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '{{ site.data.google.tracking_id }}');
+    </script>
 </head>

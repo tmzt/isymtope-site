@@ -17,6 +17,10 @@ site:
     header_text_feature_image: assets/img/pexels-opt/triangular.jpg
     str_previous_page: Previous page
 
+    # Google Analytics
+    google:
+      tracking_id: 'UA-115740123-1'
+
     avatar: about:blank
     portfolio: false
     search: false
