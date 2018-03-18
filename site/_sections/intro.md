@@ -248,6 +248,19 @@ Isymtope will also support a session implementation based on this concept, where
 
 <div class="call-out" style="background-image: url('{{ site.base_url }}/assets/img/pexels-opt/white-hallway-geometric.jpeg'); height: 200px"></div>
 
+How does it compare to Elm?
+--------------------------------------
+
+Like Elm, Isymtope uses a terse syntax for its representation of markup such as HTML. It also features high-order functions, but it groups them by intended usage, such as components or queries.
+
+Isymtope focuses on the developer with more experience with imperative languages, augmenting that with functional parts that are similar to those used to augment other imperative languages, such as C#'s Linq or Java's streams. We also borrow some features from SQL syntax, joining that with the Unix pipeline in a syntax reminiscent of filters in popular template languages.
+
+Are goal is to be as intuitive as possible, letting the developer choose the subset of our syntax that is best for them, without expecting them to know higher-order concepts of functional programming such as *monads*. If you do come from a functional background, the basics of Isymtope will seem familiar, but you may be lacking the ability to approach the level of abstraction you are used to. We may attempt to tackle that concern with alternative syntaxes down the road, but it's out-of-scope for the currently defined Isymtope language. We are not building a Haskell, Elm, or Reason, and one of those may be more appropriate for you.
+
+We make this choice in order to keep the full breadth of the syntax in reach of every member of your team, who may have diverse programming backgrounds. It also comes in handy when you are looking to expand your team.
+
+Given Isymtope's design and framework-agnostic approach, Elm and Reason are possible compilation targets, however.
+
 What is the future?
 -------------------------
 
